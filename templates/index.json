@@ -12,6 +12,15 @@
     "hero": {
       "type": "hero-banner",
       "blocks": {
+        "slide_dLRciY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2L1A2197.jpg",
+            "video": "",
+            "subtitle": "",
+            "heading": ""
+          }
+        },
         "slide_QhVVpg": {
           "type": "slide",
           "settings": {
@@ -23,6 +32,7 @@
         }
       },
       "block_order": [
+        "slide_dLRciY",
         "slide_QhVVpg"
       ],
       "settings": {
@@ -32,7 +42,7 @@
         "button_label": "Shop Now",
         "button_link": "shopify://collections/women",
         "button_label_2": "",
-        "button_link_2": "",
+        "button_link_2": "shopify://collections/mens",
         "slideshow_speed": 6,
         "show_scroll_indicator": false
       }
