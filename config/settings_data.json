@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
     "accent_color": "#F4a610",
@@ -57,7 +48,7 @@
         "type": "announcement-bar",
         "settings": {
           "show_announcement": true,
-          "text": "Buy 2 -> Get 30% off",
+          "text": "Coming Soon....",
           "link": "",
           "timer_end": ""
         }
