@@ -58,7 +58,7 @@
         "type": "announcement-bar",
         "settings": {
           "show_announcement": true,
-          "text": "Coming Soon....",
+          "text": "Flat 10% off",
           "link": "",
           "timer_end": ""
         }
