@@ -1,7 +1,16 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "accent_color": "#F4a610",
-    "accent_color_dark": "#F4a610",
+    "accent_color": "#1a1a1a",
+    "accent_color_dark": "#1a1a1a",
     "text_color": "#1a1a1a",
     "text_muted_color": "#888888",
     "heading_color": "#1a1a1a",
@@ -57,7 +66,6 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify://shop_images/Untitled_design_34.png",
           "menu": "",
           "show_announcement": true
         }

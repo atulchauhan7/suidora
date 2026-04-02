@@ -15,7 +15,7 @@
         "slide_QhVVpg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/900_1200.webp",
+            "image": "shopify://shop_images/2L1A2047.jpg",
             "video": "",
             "subtitle": "",
             "heading": ""
@@ -86,30 +86,22 @@
     "tabbed": {
       "type": "tabbed-collections",
       "blocks": {
-        "tab1": {
-          "type": "tab",
-          "settings": {
-            "tab_label": "Best Seller",
-            "collection": "best-seller"
-          }
-        },
         "tab2": {
           "type": "tab",
           "settings": {
-            "tab_label": "sets",
-            "collection": "suit-sets"
+            "tab_label": "Mens",
+            "collection": "mens"
           }
         },
         "tab3": {
           "type": "tab",
           "settings": {
-            "tab_label": "Coord Set",
-            "collection": "co-ord-sets"
+            "tab_label": "Womens",
+            "collection": "women"
           }
         }
       },
       "block_order": [
-        "tab1",
         "tab2",
         "tab3"
       ],
@@ -125,9 +117,9 @@
       "type": "featured-collection",
       "settings": {
         "subtitle": "Curated For You",
-        "title": "Featured Kurtis",
-        "description": "Handpicked ethnic wear that embodies elegance and timeless Indian craftsmanship",
-        "collection": "frontpage",
+        "title": "Featured Collection",
+        "description": "",
+        "collection": "best-sellers",
         "products_to_show": 8,
         "columns": "4",
         "autoplay": true,
@@ -140,7 +132,6 @@
         "b1": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/imgi_10_SET0213_3_ef422a9e-9e61-47f8-95eb-bc31484dff1c.jpg",
             "heading": "New Arrivals",
             "button_label": "Shop Now",
             "link": "shopify://collections/new-arrival"
@@ -149,7 +140,6 @@
         "b2": {
           "type": "banner",
           "settings": {
-            "image": "shopify://shop_images/imgi_6_3-96105505863380_l.jpg",
             "heading": "kurti sets",
             "button_label": "Shop Now",
             "link": "shopify://collections/kurta-sets"
@@ -160,6 +150,7 @@
         "b1",
         "b2"
       ],
+      "disabled": true,
       "settings": {}
     },
     "scrolling": {
@@ -201,10 +192,10 @@
     "image-text": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_34.png",
+        "image": "shopify://shop_images/Instagram_Post_1080x1080_px.jpg",
         "subtitle": "Our Story",
         "heading": "Crafted with Love",
-        "text": "<p>Every kurti in our collection is thoughtfully designed, blending traditional Indian craftsmanship with contemporary style. From handpicked fabrics to intricate detailing, we create ethnic wear that celebrates the grace of every woman.</p>",
+        "text": "<p><br/>At <strong>SUIDOORA</strong>, we bring together the beauty of tradition and the ease of modern fashion. Our collections feature thoughtfully designed kurtis and menswear essentials that combine comfort, quality, and style—perfect for everyday wear and special moments alike.<br/><br/></p>",
         "button_label": "Learn More",
         "button_link": "",
         "reverse": false
