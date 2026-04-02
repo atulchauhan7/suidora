@@ -5,11 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
 <meta name="theme-color" content="{{ settings.accent_color }}">
 
+{% if settings.use_gokwik_checkout %}
 <!-- Gokwik theme code start -->
 <link rel="dns-prefetch" href="https://pdp.gokwik.co/">
 <link rel="dns-prefetch" href="https://api.gokwik.co">
 {% render 'gokwik' %}
 <!-- Gokwik theme code End -->
+{% endif %}
 
 <!-- Preconnect to critical origins -->
 <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
@@ -140,6 +142,9 @@ window.theme = {
 moneyFormat: {{ shop.money_format | json }},
 currency: {{ cart.currency.iso_code | json }},
 cartCount: {{ cart.item_count }},
+settings: {
+use_gokwik_checkout: {{ settings.use_gokwik_checkout | json }}
+},
 routes: {
 cart_url: '{{ routes.cart_url }}',
 cart_add_url: '{{ routes.cart_add_url }}',

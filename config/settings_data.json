@@ -15,6 +15,7 @@
     "section_spacing": 60,
     "border_radius": 0,
     "text_direction": "ltr",
+    "use_gokwik_checkout": false,
     "mid": "1937lhjque1z",
     "envType": "production",
     "hideFlow": false,

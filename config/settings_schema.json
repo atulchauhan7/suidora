@@ -172,6 +172,13 @@
     "name": "Gokwik",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "use_gokwik_checkout",
+        "label": "Use GoKwik for checkout",
+        "default": false,
+        "info": "When disabled, customers use Shopify default checkout."
+      },
+      {
         "type": "text",
         "id": "mid",
         "label": "Merchant Id"
