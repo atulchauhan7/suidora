@@ -12,6 +12,15 @@
     "hero": {
       "type": "hero-banner",
       "blocks": {
+        "slide_dLRciY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2L1A2197.jpg",
+            "video": "",
+            "subtitle": "",
+            "heading": ""
+          }
+        },
         "slide_QhVVpg": {
           "type": "slide",
           "settings": {
@@ -23,6 +32,7 @@
         }
       },
       "block_order": [
+        "slide_dLRciY",
         "slide_QhVVpg"
       ],
       "settings": {
@@ -32,7 +42,7 @@
         "button_label": "Shop Now",
         "button_link": "shopify://collections/women",
         "button_label_2": "",
-        "button_link_2": "",
+        "button_link_2": "shopify://collections/mens",
         "slideshow_speed": 6,
         "show_scroll_indicator": false
       }
@@ -192,7 +202,7 @@
     "image-text": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify://shop_images/Instagram_Post_1080x1080_px.jpg",
+        "image": "shopify://shop_images/Untitled_design_2.svg",
         "subtitle": "Our Story",
         "heading": "Crafted with Love",
         "text": "<p><br/>At <strong>SUIDOORA</strong>, we bring together the beauty of tradition and the ease of modern fashion. Our collections feature thoughtfully designed kurtis and menswear essentials that combine comfort, quality, and style—perfect for everyday wear and special moments alike.<br/><br/></p>",
